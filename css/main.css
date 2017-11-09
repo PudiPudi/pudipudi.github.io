@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,300italic,900italic);
+
+body {
+    background-color: #142d38;
+    background: radial-gradient( circle farthest-corner at 50% 0%, #142d38,#081722) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #eee;
+    font-family:'Lato', sans-serif;
+}
+
+.centerFlex {
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    text-align: center;
+    border: 1px groove;
+    padding: 3em;
+}
+
+.centerFlex img {
+    width: 20%;
+    height: auto;
+}
+
+.centerFlex p {
+    color: #777;
+}
